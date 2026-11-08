@@ -1,0 +1,25 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #F5EFE6;
+  color: #493326;
+}
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-family: 'Fraunces', serif;
+}
+/* Text Selection */
+::selection {
+  background-color: #B88955;
+  color: #2B1E18;
+}
