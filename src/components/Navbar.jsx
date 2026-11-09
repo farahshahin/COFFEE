@@ -167,8 +167,7 @@ export default function Navbar() {
      
 
       <BootstrapNavbar fixed="top" variant="dark" className={`site-navbar py-2 ${isSolid ? "navbar-solid" : "navbar-transparent"}`}>
-        <Container fluid className="px-4 px-lg-5 d-flex align-items-center">
-
+        <Container fluid className="position-relative px-4 px-lg-5 d-flex align-items-center">
           {/* Logo */}
           <BootstrapNavbar.Brand as={NavLink} to="/" className="coffee-logo d-flex align-items-center gap-2 m-0">
             <img src="/logo.png" alt="COFFEE" width="38" height="38" className="object-fit-contain" />
@@ -176,7 +175,7 @@ export default function Navbar() {
           </BootstrapNavbar.Brand>
 
           {/* Desktop Navigation */}
-          <Nav className="desktop-links d-none d-md-flex mx-auto align-items-center gap-3">
+          <Nav className="desktop-links d-none d-md-flex position-absolute top-50 start-50 translate-middle align-items-center gap-3">
             <Nav.Link as={NavLink} to="/" end className="position-relative small">Home</Nav.Link>
             <Nav.Link as={NavLink} to="/shop" className="position-relative small">Menu</Nav.Link>
             <Nav.Link as={NavLink} to="/about" className="position-relative small">About</Nav.Link>
