@@ -177,7 +177,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <Nav className="desktop-links d-none d-md-flex position-absolute top-50 start-50 translate-middle align-items-center gap-3">
             <Nav.Link as={NavLink} to="/" end className="position-relative small">Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/shop" className="position-relative small">Menu</Nav.Link>
+            <Nav.Link as={NavLink} to="/menu" className="position-relative small">Menu</Nav.Link>
             <Nav.Link as={NavLink} to="/about" className="position-relative small">About</Nav.Link>
             <Nav.Link as={NavLink} to="/contact" className="position-relative small">Contact</Nav.Link>
           </Nav>
@@ -216,7 +216,7 @@ export default function Navbar() {
 
           <Nav className="menu-links d-flex flex-column align-items-center gap-3">
             <Nav.Link as={NavLink} to="/" end onClick={closeMenu} className="fs-2">Home</Nav.Link>
-            <Nav.Link as={NavLink} to="/shop" onClick={closeMenu} className="fs-2">Menu</Nav.Link>
+            <Nav.Link as={NavLink} to="/menu" onClick={closeMenu} className="fs-2">Menu</Nav.Link>
             <Nav.Link as={NavLink} to="/about" onClick={closeMenu} className="fs-2">About</Nav.Link>
             <Nav.Link as={NavLink} to="/contact" onClick={closeMenu} className="fs-2">Contact</Nav.Link>
           </Nav>

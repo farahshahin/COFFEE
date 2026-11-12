@@ -18,8 +18,7 @@ body {
   background-color: #F5EFE6;
   color: #493326;
 }
-h1, h2, h3, h4, h5,.coffee-logo span,
-.menu-links .nav-link {
+h1, h2, h3, h4, h5,.coffee-logo span,span,.menu-links .nav-link {
   font-family: var(--font-display);
 }
 /* Text Selection */
