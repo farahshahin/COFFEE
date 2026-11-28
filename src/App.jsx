@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Menu from './pages/Menu';
 //import Shop from './pages/Shop';
 //import About from './pages/About';
 
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/shop" element={<Shop />} /> */}
+        { <Route path="/Menu" element={<Menu />} />}
         {/* <Route path="/about" element={<About />} /> */}
       </Routes>
     </>
